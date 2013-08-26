@@ -1,1 +1,7 @@
 gtk-font-name = "Calibri 11"
+style "default-style"
+{
+  bg[NORMAL] = "#f6f6f6"
+}
+
+class "GtkWidget" style "default-style"
